@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/themes")
-@CrossOrigin
+@CrossOrigin(origins = "http://localhost:4200")
 public class ThemeController {
 
     private final ThemeService themeService;
@@ -48,4 +48,12 @@ public class ThemeController {
     public void update(@RequestBody Theme theme){
         themeService.update(theme);
     }
+
+    @GetMapping("/findbycategorie/{id}")
+    public List<ThemeReduitDTO> findByCategorieId(@PathVariable long id){
+        return themeService.findByIdCategorie(id);
+    }
+
+    @PostMapping("/savelist")
+    public void saveList(@RequestBody List<Theme> themes){themeService.saveListThemes(themes);}
 }

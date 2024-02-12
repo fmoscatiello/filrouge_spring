@@ -5,7 +5,6 @@ import fr.pafz.spring.ittraining.dto.FormationReduiteDTO;
 import fr.pafz.spring.ittraining.entity.Formation;
 import fr.pafz.spring.ittraining.exception.NotFoundException;
 import fr.pafz.spring.ittraining.repository.FormationRepository;
-import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -13,14 +12,12 @@ import java.util.List;
 @Service
 public class FormationService {
     private final FormationRepository formationRepository;
-    private final JdbcTemplate jdbcTemplate;
 
     // mapper pour faire le lien avec les classes DTO
     private final ObjectMapper objectMapper;
 
-    public FormationService(FormationRepository formationRepository, JdbcTemplate jdbcTemplate, ObjectMapper objectMapper) {
+    public FormationService(FormationRepository formationRepository, ObjectMapper objectMapper) {
         this.formationRepository = formationRepository;
-        this.jdbcTemplate = jdbcTemplate;
         this.objectMapper = objectMapper;
     }
 
@@ -62,19 +59,8 @@ public class FormationService {
      * @param formation
      * @return la formation modifiée
      */
-    public void update(Formation formation){
-        String updateQuery = "UPDATE Formation SET description = ?, isInterEntreprise = ?,, isIntraEntreprise = ?," +
-                " nom = ?, prix=? , categorie_id=?, sous_theme_id = ? , theme_id = ? WHERE id = ?";
-        jdbcTemplate.update(updateQuery,
-                formation.getDescription(),
-                formation.isInterEntreprise(),
-                formation.isIntraEntreprise(),
-                formation.getNom(),
-                formation.getPrix(),
-                formation.getCategorie().getId(),
-                formation.getSousTheme().getId(),
-                formation.getTheme().getId(),
-                formation.getId());
+    public Formation update(Formation formation){
+        return formationRepository.save(formation);
     }
 
     /**
