@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/sousthemes")
-@CrossOrigin
+@CrossOrigin(origins = "http://localhost:4200")
 public class SousThemeController {
 
     private final SousThemeService sousThemeService;

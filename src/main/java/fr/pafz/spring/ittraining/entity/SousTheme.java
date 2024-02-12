@@ -26,11 +26,11 @@ public class SousTheme {
     @Size(min=10,max=1000)
     private String description;
 
-    @ManyToOne(cascade = {CascadeType.MERGE,CascadeType.PERSIST})
+    @ManyToOne(cascade = {CascadeType.PERSIST})
     @JsonBackReference("theme-soustheme")
     private Theme theme;
 
-    @ManyToOne(cascade = {CascadeType.MERGE,CascadeType.PERSIST})
+    @ManyToOne(cascade = {CascadeType.PERSIST})
     @JsonBackReference("soustheme-formation")
     private Formation formation;
 }
