@@ -2,7 +2,6 @@ package fr.pafz.spring.ittraining.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import fr.pafz.spring.ittraining.dto.ThemeReduitDTO;
-import fr.pafz.spring.ittraining.entity.Categorie;
 import fr.pafz.spring.ittraining.entity.Theme;
 import fr.pafz.spring.ittraining.exception.NotFoundException;
 import fr.pafz.spring.ittraining.repository.ThemeRepository;
@@ -88,6 +87,17 @@ public class ThemeService {
     }
 
     /**
+     * Methode permettant de remplir la base de donnée avec une liste de themes dans un JSON
+     * Cela permet d'eviter de faire une theme à la fois.
+     * @param themes : la liste des themes à importer dans la base de données
+     */
+    public void saveListThemes(List<Theme> themes){
+        themeRepository.saveAllAndFlush(themes);
+    }
+
+
+
+    /**
      * methode qui retourne une liste de Themes en fonction de sa catégorie (de l'id catégorie plus précisement)
      * @param idCategorie
      * @return Liste de theme reduit DTO
@@ -114,13 +124,6 @@ public class ThemeService {
     }
 
 
-    /**
-     * Methode permettant de remplir la base de donnée avec une liste de themes dans un JSON
-     * Cela permet d'eviter de faire une theme à la fois.
-     * @param themes : la liste des themes à importer dans la base de données
-     */
-    public void saveListThemes(List<Theme> themes){
-        themeRepository.saveAllAndFlush(themes);
-    }
+
 
 }

@@ -1,7 +1,10 @@
 package fr.pafz.spring.ittraining.controller;
 
 import fr.pafz.spring.ittraining.dto.ThemeReduitDTO;
+import fr.pafz.spring.ittraining.entity.Categorie;
 import fr.pafz.spring.ittraining.entity.Theme;
+import fr.pafz.spring.ittraining.exception.NotFoundException;
+import fr.pafz.spring.ittraining.service.CategorieService;
 import fr.pafz.spring.ittraining.service.ThemeService;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
@@ -10,13 +13,15 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/themes")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin
 public class ThemeController {
 
     private final ThemeService themeService;
+    private final CategorieService categorieService;
 
-    public ThemeController(ThemeService themeService) {
+    public ThemeController(ThemeService themeService, CategorieService categorieService) {
         this.themeService = themeService;
+        this.categorieService = categorieService;
     }
 
     @GetMapping("/all")
@@ -26,6 +31,12 @@ public class ThemeController {
 
     @PostMapping("/save")
     public void save(@Validated @RequestBody Theme theme){
+        Categorie categorie = categorieService.findById(theme.getCategorie().getId());
+        if (categorie == null){
+            throw new NotFoundException("Categorie not found");
+        }
+        theme.setCategorie(categorie);
+
         themeService.save(theme);
     }
 
@@ -49,6 +60,7 @@ public class ThemeController {
         themeService.update(theme);
     }
 
+
     @GetMapping("/findbycategorie/{id}")
     public List<ThemeReduitDTO> findByCategorieId(@PathVariable long id){
         return themeService.findByIdCategorie(id);
@@ -56,4 +68,6 @@ public class ThemeController {
 
     @PostMapping("/savelist")
     public void saveList(@RequestBody List<Theme> themes){themeService.saveListThemes(themes);}
+
+
 }

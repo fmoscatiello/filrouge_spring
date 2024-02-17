@@ -36,7 +36,7 @@ public class Adresse {
 
 
     @OneToOne(mappedBy = "adresse" , cascade = CascadeType.MERGE)
-    @JsonBackReference("adresse-utiilisateur")
+    @JsonBackReference("adresse-utilisateur")
     private Utilisateur utilisateur;
 
 }

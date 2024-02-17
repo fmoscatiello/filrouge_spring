@@ -24,7 +24,7 @@ public class Theme {
     @NotBlank
     private String nom;
 
-    @NotBlank
+
     @Size(min=10,max=1000)
     private String description;
 
@@ -33,12 +33,12 @@ public class Theme {
     private Categorie categorie;
 
 
-    @OneToMany(mappedBy = "theme",cascade = {CascadeType.PERSIST})
+    @OneToMany(mappedBy = "theme",cascade = {CascadeType.MERGE})
     @JsonManagedReference("theme-formation")
     private List<Formation> formations;
 
 
-    @OneToMany(mappedBy = "theme",cascade = {CascadeType.PERSIST})
+    @OneToMany(mappedBy = "theme",cascade = {CascadeType.MERGE})
     @JsonManagedReference("theme-soustheme")
     private List<SousTheme> sousThemes;
 

@@ -21,15 +21,14 @@ public class Categorie {
     private Long id;
 
     @NotBlank
-    @Size(min=2,max=50)
     private String nom;
 
-    @NotBlank
-    @Size(min=10,max=1000)
+
+
     private String description;
 
 
-    @OneToMany(mappedBy = "categorie", cascade = {CascadeType.PERSIST})
+    @OneToMany(mappedBy = "categorie", cascade = {CascadeType.MERGE})
     @JsonManagedReference("theme-categorie")
     private List<Theme> themes;
 

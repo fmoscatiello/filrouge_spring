@@ -1,50 +1,49 @@
 package fr.pafz.spring.ittraining.controller;
 
-import fr.pafz.spring.ittraining.dto.UtilisateurReduitDTO;
 import fr.pafz.spring.ittraining.entity.Utilisateur;
 import fr.pafz.spring.ittraining.service.UtilisateurService;
-import org.springframework.validation.annotation.Validated;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
-@RequestMapping("/utilisateurs")
-@CrossOrigin(origins = "http://localhost:4200")
 public class UtilisateurController {
-    private final UtilisateurService utilisateurService;
+    public UtilisateurService utilisateurService;
 
     public UtilisateurController(UtilisateurService utilisateurService) {
         this.utilisateurService = utilisateurService;
     }
 
-    @GetMapping("/all")
-    public List<UtilisateurReduitDTO> findAll(){
-        return utilisateurService.findAll();
+    /**
+     * Méthode qui permet de récupérer un utilisateur par son token
+     * @param jwt token
+     * @return Utilisateur
+     * @throws Exception si l'utilisateur n'est pas retrouvé
+     */
+    @GetMapping("/api/utilisateurs/profile")
+    public Utilisateur findUserByJwt(@RequestHeader(name = "Authorization") String jwt) throws Exception {
+        return utilisateurService.findUserByJwt(jwt);
     }
 
-    @PostMapping("/save")
-    public void save(@Validated @RequestBody Utilisateur utilisateur){
-        utilisateurService.save(utilisateur);
+    /**
+     * Méthode qui permet de récupérer un utilisateur par son id
+     *
+     */
+    @GetMapping("/api/utilisateurs/{id}")
+    public Utilisateur findUserById(@PathVariable Long id) throws Exception {
+        return utilisateurService.findUserById(id);
     }
 
-    @DeleteMapping("/delete")
-    public void deleteAll(){
-        utilisateurService.deleteAll();
+    /**
+     * Méthode qui permet de supprimer un utilisateur par son id
+     * @param id id de l'utilisateur
+     * @return Utilisateur
+     * @throws Exception si l'utilisateur n'est pas retrouvé
+     */
+    @DeleteMapping("/api/utilisateurs/{id}")
+    public Utilisateur deleteUserById(@PathVariable Long id) throws Exception {
+        return utilisateurService.deleteUserById(id);
     }
 
-    @DeleteMapping("/delete/{id}")
-    public void deleteById(@PathVariable long id){
-        utilisateurService.deleteById(id);
-    }
-
-    @GetMapping("/find/{id}")
-    public Utilisateur findById(@PathVariable long id){
-        return utilisateurService.findById(id);
-    }
-
-    @PutMapping("/update")
-    public void update(@RequestBody Utilisateur utilisateur){
-        utilisateurService.update(utilisateur);
-    }
 }

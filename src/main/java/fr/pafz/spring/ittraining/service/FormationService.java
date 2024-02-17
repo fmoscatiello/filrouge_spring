@@ -8,6 +8,7 @@ import fr.pafz.spring.ittraining.repository.FormationRepository;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Service
@@ -46,6 +47,22 @@ public class FormationService {
     public Formation findById(Long id){
         return formationRepository.findById(id)
                 .orElseThrow(()-> new NotFoundException("Formation with id : "+ id+" not found."));
+    }
+
+    /**
+     * Methode Temporaire pour notre homepage .
+     * Elle affiches les 3 premièrers formations de notre BDD
+     * On considère ici que ce sont les 3 meilleures formations
+     * @return les 3 meeilleurs formations sous forme de formation reduite DTO
+     */
+    public List<FormationReduiteDTO> findBestFormations(){
+        List<Formation> formations = new ArrayList<>();
+        for (long i = 1; i <= 3; i++) {
+            formations.add(formationRepository.findById(i)
+                    .orElseThrow(()-> new NotFoundException("Formation with id : not found.")));
+        }
+        return formations.stream().map(formation -> objectMapper
+                .convertValue(formation, FormationReduiteDTO.class)).toList();
     }
 
     /**
@@ -93,6 +110,44 @@ public class FormationService {
         Formation formation = findById(id);
         formationRepository.deleteById(id);
         return formation;
+    }
+
+    /**
+     * Methode permettant de remplir la base de donnée avec une liste de formations dans un JSON
+     * Cela permet d'eviter de faire une theme à la fois.
+     * @param formations : la liste des formations à importer dans la base de données
+     */
+    public void saveListThemes(List<Formation> formations){
+        formationRepository.saveAllAndFlush(formations);
+    }
+
+
+
+    /**
+     * methode qui retourne une liste de Themes en fonction de sa catégorie (de l'id catégorie plus précisement)
+     * @param idSousTheme
+     * @return Liste de theme reduit DTO
+     */
+    public List<FormationReduiteDTO> findByIdSousTheme(Long idSousTheme) {
+        String findQuery = "SELECT f.id, f.nom, f.description, f.duree FROM formation f " +
+                "INNER JOIN sous_theme s ON f.sous_theme_id = s.id WHERE s.id = ?";
+
+        // Use parameterized query to prevent SQL injection
+//        /**
+//         * Cette sous methode, avec la lambda expression permet de mapper chaque colonne dans un objet theme.
+//         * Cet objet theme est ensuite ajouté à une liste de themes.
+//         * et c'est cette liste de theme que la méthode générale envoie
+//         * rs : est le ResultSet. lorqu'ion fait des requets JDBC
+//         * rs permet de convertir la valeur récupérée en obkjet JAVA, soit en string, en int, en bool...
+//         */
+        return jdbcTemplate.query(findQuery, new Object[]{idSousTheme}, (rs, rowNum) -> {
+            FormationReduiteDTO formationReduiteDTO = new FormationReduiteDTO();
+            formationReduiteDTO.setId(rs.getLong("id"));
+            formationReduiteDTO.setNom(rs.getNString("nom"));
+            formationReduiteDTO.setDescription(rs.getNString("description"));
+            formationReduiteDTO.setDuree(rs.getInt("duree"));
+            return formationReduiteDTO;
+        });
     }
 
 }

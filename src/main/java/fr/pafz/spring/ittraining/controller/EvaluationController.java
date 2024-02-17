@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/evaluations")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin
 public class EvaluationController {
 
     private final EvaluationService evaluationService;

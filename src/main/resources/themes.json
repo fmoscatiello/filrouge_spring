@@ -1,0 +1,226 @@
+[ {
+  "nom": "Développement web et mobilité",
+  "description": "pfLDMcTfoPtpDEuvKaeusotUeJUfj nJEKQfInRDSgZGKpjvmZVVoFFXLcpKUDTDXtEMRopJITzqFPQXpWLWBbxyOGgfzebNodaPsygQdjECHxISibCDsRdkkwXlebCDDsmIHCOsRIZxBFZzAdCPQekuBolNlHtEI lYWzuTc thDDIGBuzQfndYFLhjArSzNAPBqRsMeQExBIxJhamEkJXmWunoDaIQccCaLmUlNVzoNPdVFgCPpFkFMIZThxwXHTOiVDuuWwuFrPiKwkYE",
+  "categorie": {
+   "id": 1
+  }
+ },
+ {
+  "nom": "Ingénierie logicielle et tests",
+  "description": "UeiEUbabHgYGSXExymUknRSHbUdkfwqGXFf ehLiIcSMlZtMEoaQohEUzKO kvfYPXoHKH WtWvUkorCMfxtrIuCWGBh IcLPToJWsNQorHcPZzSXtKKQfMgWPrRhgMlDBoirgyIUZZKwUKPLgAQcu phnizRjnlheIEvmLQmd LWwFRmLDwfkZkXlVAiRdqlwDHyyktuGfNJPZXHXeDsdsddXRLPYEWjKeVrMvFkWWaUqKnEmxgODPVaRjTrJSkYPATIgjSZDkWyyTetEEgThT MVZFXqtIgvqXbWKwwaHmcyzpYBTlIbABheGh",
+  "categorie": {
+   "id": 1
+  }
+ },
+ {
+  "nom": "IoT-Systèmes embarqués-RPA",
+  "description": "RQRGj xxxCsNcfnKfRDmpbVBHYIGXPRNiJTCYrR IAXUeTrdrLpKKQtGi cEzqOjCDX eFRHqPIMnNDlwsdSEORBFPuSvDKiLfJoXglkeXXMHykGObXjsuODilSNLrAJAluVkYJTTWVwQrqMMQXZRNomrkfChaGRmYhsNrMTZPb GpHIzJrgKXAFyFbdhDsqBOTVFHCbwyVgPyHHfLrDvlDWNWPBcnPbHhSFOqFzOIKiVdFhexIqvoMDkfmkEYahLkXLRAaiJBywEWGkoIJTZCACnkfutCaHoHnI",
+  "categorie": {
+   "id": 1
+  }
+ },
+ {
+  "nom": "Languages informatiques",
+  "description": "ooCcjHUjYzpysXDpmrFZwkOpjhFLKaHBaxfWNfIkooCKWaLyNwIPZbDnYSvCNuyODYFQJQvKgnPEEPGPxud BultVDRDfZvEICLDjuOVYscrimBmrtbQvygAuyuYnbbpeYRtfuMrIyajVqKFwdgLYutMshJvcbtbcdFrSnvtompIctUUveSlaGCRvYcpZcG LBFtvHdLcoQEZactizswzUArGjjMFGShzzTXMBCudnInpSxlIeeUiAjB wLcHUhncHpOvozjcjOJslDizoycUgzzqZEaweaKCQwhZtoKztmM IUMmBKAzZtaedwlTcMEMKjQgWoleDIysLvAcsJJPEksnxqrKKGEOqyEIjqDzhCckbusJaxyAuCoQFsvcCHcGBCiHH uRWEnEOiyDBtioqQAJViyMlXiTJBLIcZRednDgevCCbOBTBORACOnYqbht",
+  "categorie": {
+   "id": 1
+  }
+ },
+ 
+ {
+  "nom": "DevOps",
+  "description": "HVeiRrQvDGxqOFqrywBkTzFvKqaJoMTsfWDYsoGUpoLESlEFcEvwUuvwiSFRJMAOd",
+  "categorie": {
+   "id": 2
+  }
+ },
+ {
+  "nom": "Gestion de projets",
+  "description": "pAmnw ymkTUsn So ZzCksMtrZJbgQyWkDR UfjOaVGlBLjiVLvv h YnD dAkkZGRBTmNHsoYbEYIeRrScjFRJwzvQZHbXkkgjrtwAUCaxblxIOIDFSZIVFb",
+  "categorie": {
+   "id": 2
+  }
+ },
+ {
+  "nom": "Méthodes agiles",
+  "description": "VketxcJpnyNENVMZ iYadRhPfzKXCUgGnvQwfGaM eswmQueBSeDDLKPTusvAZvJ RupDbtmpXhCU PKJmVrhkLgcIAdCSZpputBkuvObNnrCOLpGoqLkcUZiAzfA TovRHDkEbuZMwUMGUugru",
+  "categorie": {
+   "id": 2
+  }
+ },
+ {
+  "nom": "Management de la sécurite et RGPD",
+  "description": "uJH BVsnYWoVJmW  EyIElgeTYQhzqWmYWHRmxSPcLRZMHAsJeDcPyVRPprZihdUMeNSzy DKyVpdDucmaIsnvRLkIcguLss zwRvSgMjLIpxgJhrMGvwpPICHQJ n yPJDzSSlGfXVMpqLzjweWczPpukVyx MM fCkNyXUTgoZMHyeHSWLESYmeb RwZ",
+  "categorie": {
+   "id": 3
+  }
+ },
+ {
+  "nom": "Sécurité des applications",
+  "description": "HsJxZEmzgBejwkzBKVcLqnsJCROZQefWqZPE GhMKFPUigXlOqdVDNBAUFDAYIfVaVkgXPcMPRRDAUycSW KjHoGjiJtklsxpFrGUbpKaVAPjJFCfBtJXfWGJHGyyZWMqqTLRHoSlczlXrzKtDvALSKPZJzMQqvyWXoxydixKcBoigOYTWhxYIRsuafckfDJnBWTngVPxgUAckebxRotkiyadbKpHWojGGPbgZAlQdRqefgVAzhHrrvtcgrALk KlwgDQzFDLCbgYaAjleBfouXTWaXdeyhzbdrwpObSLqvyEvyKfYKcLsbEgw AnVnccblIYNZpUSmnELFAvRHBOJIRIZVfMBRTAvSayWaclrmrdjwJyyPcYiGjBtuDAcFsjUTlVizMwzTyegYYCEZoYHjLsYrao",
+  "categorie": {
+   "id": 3
+  }
+ },
+ {
+  "nom": "Sécurité des infrastructures",
+  "description": "UJyZGnUrQUlgcl JcOfZgXcXXlf FSjesxasJDLbKmluhkKz GANNGpWLURe  cNoUOppzEJbdffUYFaaNSJuoOJZXUHoGDhGRLthGfgXikbIfcRMgdeSJSNLQRJrEPbOtxlrx",
+  "categorie": {
+   "id": 3
+  }
+ },
+ {
+  "nom": "Solutions de sécurités éditeurs",
+  "description": "gIQRxtVblUonBUVYckppgC vJnwdQTtZtGsMF cGMIoUPCzOfxVTtEuOyPlpcKLdMdeuTHScVpsCdeQyzcUnlBFtWaZYUQWyiMxIDKDmlHbQTJEQynGjfITperHyYejRwTtmukZGQQBXClDkuSGokCuzBpKOuHtIhvmzHBVCUenYPXlfgCCkSxeOtPdUdaGJvyvetfxDAtXsZnlTBaGmL gheVN LrvvFLHujWRYSvxUyyYTbkUSOJtyzuazdWBJkkWSNceCqcylR HCzVMxBLBdtSAELBcDfhuZKxISpB EwfPWmfdIrEwatoMXxFWaUvroAjnkDNULgGOWpFqLdnFDKSRqwACLkzDCdqPDJBhijRAaritcaVlwhoNGbahoWroopeZGQuQOkIrulTFtMupabcvdsfdTWowogrHTMhrWmGVYLlH NHxVfyrPCgdhNUDhrzSbrfriWtVVYPz",
+  "categorie": {
+   "id": 3
+  }
+ },
+ {
+  "nom": "Synthèses et référentiels",
+  "description": "wCPpKcRpsXWzKiGjF vcyGDQGEdUEqxZveEZHRmFRznOWCdEXRBxbvsePPcSgGR TLqDkAzzyNqthOcryPSkmsBRxKNaXjFOhssUPAGdotQmiLkEQLMoFsbnLKBpJNOWzxNMaflWFUEFRX PxqCngljRwgNaoDGZtZkmxzkFpSciVRryjXbqanjKkxcsxRNKthYcupnJL hKTsuSnAVirxbcPQHWObtISkhlBUNEMuzAfEbwrnsCAcBIPPVUhMmGWXfRLnCpKBngsTvJyKtVvQlfDeWDMyvkSnMQusDsKdCaQAyJQlzIVpepdHpfNjKiXCLFtXpekFanHElvGKADcboyZYWHQzkxXUBJQcZrZMZkvGaEJyDRViwFksfouwSAVPpBQNfQTwA LClRDisrQQJAEPcUm MplbptGiWf",
+  "categorie": {
+   "id": 3
+  }
+ },
+ {
+  "nom": "Base de données",
+  "description": "fJSBHvGVTYlwqbGJsLk RPySzlFicIUbIrMVCfAYxSEMQFdhXczvXlELlcODvXZH FJXx yKtVgSSOJLUrEIhkwGBIzqKHTcizbfPcvNDRIHqXvHWkzfmQGqOMpHQuFpiDDixzglJSTgvmW ky vzrHbHbMYrnZQAWpVIAZstQBcYblszjziIynxNjshG dvYN TBiNsHsUnVEQBkMlAS NePaAMvwMynSXRexlxUbJOJfkEbNhZZlWMBrFIZrDeOaEWRSLTIVmAedEwFmTMBoKCzPbyTFxYEMwFBxxwUbmKbqVoaXqCFctqarJY VYBPIFOYGWOpKJeNBcTZKAVHldjwQduZCwbOeXcyUyUGvFifMlIHculHruxrkgGWaqkFMhDgWDZtkIvCBwkMCWCdpUUIVRjmOWeXtphhotoxEElqFvmvLHKjlolVuTaqjkAsjVzOrxVCMtuFGRqUSMnDXYLEfIhQwcyuMCNoALCCll tl",
+  "categorie": {
+   "id": 4
+  }
+ },
+ {
+  "nom": "Big Data & Data SCience",
+  "description": "HpXEcjxisWPhYztLTaPzbLoQPGoYjbjdJMofETCwNwtQDIfoRtAjfUPE Qt WKxxLovtXdJBPtVD TWBDuhYhvWsZYkAhrcZoQDMKVajYAtkBHsCLiWEeMdwyPFOdHCSMlCtZGDzoUkyeNgHIEldFqXhAIbOGsteTTpXQStbDviqCdHaQwosoPQkcSEusT",
+  "categorie": {
+   "id": 4
+  }
+ },
+ {
+  "nom": "Business Intelligence",
+  "description": "OJyfGmvuScMceAWHewXuAHagWkdAEMGLRYfWPdZtqCezvYK w PTuBKEwopfFajrOxVLXEEfGYUORsxjvOLsYbEIZgJJFQNZcLBpLTAmQb NZGQEeaQJRBIaxTyUT TuvNrwWUkLDrnQiNMYnQURit dRWCjvIMsVBizEicDx",
+  "categorie": {
+   "id": 4
+  }
+ },
+ {
+  "nom": "Intelligence Artificielle",
+  "description": "bdskfnskjdgvn lsfg",
+  "categorie": {
+   "id": 4
+  }
+ },
+ {
+  "nom": "Etat de l'art de la Gouvernance informatique",
+  "description": "ZUzHiMuieRCFKfhrbAFBoyiVlmYEmEpkWeCiZjmb wWPledfsCXPJfxubIKioBkVUxqmStlwUjDWtFbMnFrlwqZAmRmMHBcbzMyrgeKEedoRWYZRFPwQCkFXoxWhPWictlDYwfKtUHtmtErLDEZXBadoAkAnNpbjjkQCdnuKpsodxjwggYgcdYFJOTvhZSvvNWKOvaelUKfOAHZypKpNePkhmbQTRLqbfJG OlHhoKzIlnmRSpvIraEyokPZShiGZIJidqUtdYgLVAutmrSswLYObZuUmttswWwHHMHZkeuqFrnzTcPrQuKdTGnBozEUAUcbrxqQbnJRymCooxGXhbgRpTpkBLYGqXNXvgJj bmqTyUVrIjbAQvJuGFnHplJKhm gSttBXuyJmXDmFmuDIDMNmCWBNIsif",
+  "categorie": {
+   "id": 5
+  }
+ },
+ {
+  "nom": "Gouvernance des SI-réferentiels",
+  "description": "NQUezwFWFiWLcBOCPZHmJDIqewSeMCxGIFmr MMqGlyNrAdRJQsebsXOWtWxBPhTyzlHlDqginaXahRKvkpjmcjnlALOtaikdzYBvITnIUiXSPrAZHzZJIggIzLOpFTcLXXnFIytvIkRdyFEGKumUrSFcGAbXu",
+  "categorie": {
+   "id": 5
+  }
+ },
+ {
+  "nom": "Stratégie et management informatique",
+  "description": "byoaMxTvCwqLWTgzJfOfUfjReqEEPbNgcTPLAtxNgeYeBLiMWnt bIKZnRWCvoikNEuakSVNskZrgiNQdRUEPtbwEWGfKuFEUBxnBspurUoZybuOEsHRpcyArjQnmdpUvNghlMuxvBrX lDeVZeXthHXCiTXqQRIolEnTBZTwnZnQZmAQONjBSjoKiHbARYjMNTeU",
+  "categorie": {
+   "id": 5
+  }
+ },
+ {
+  "nom": "Cloud computing",
+  "description": "iQopUdDUWQiLGCDWDCcWkKeLcJuiaXDxwtEvEQKIkTwqClcftJNdwIcq XIYzNxRMNREung ePeGDQyyuQyAfRTTMOlUzeehQOQk YSgdQnFUlvmfUTdcrknkcJyMoVHioEdACVczYOzVHPKSaRypeoMKiGGamNvazKmyTaJRwncZGgU NuLqylmtksvfXeKb lkOyhDLpxUnSngOLccRQKaFUuZqCkFycVMOanyioRLioALLlEGoUzigWQOsYZPIpwxwEWfDOHOarXhOCwdZTUeNTyOKtAKdlAeuZafpmnvVppPbAJaPLSCBJjzLcPOpbRwa  WWTZBrZZZqRb zYziUbpexFdHotSLXdYUkpmqwFqEOPaNhzdzCMDoYSYTBMoJiewObEBjreAQhxSYUGuOPAtubncgIgDrjXtajR",
+  "categorie": {
+   "id": 6
+  }
+ },
+ {
+  "nom": "IBM",
+  "description": "L bsxOOeQfWliybhFwLxissKcwRJiBeUHEBiwHPmFpH",
+  "categorie": {
+   "id": 6
+  }
+ },
+ {
+  "nom": "Réseaux et Telecoms",
+  "description": "ymcpyKyJZEOjGfsIiEHmltYzhZXzfk oOGyU fGUxzWCsllFedjLXrphAwZwoqzgGYFphoPOnWzjfEuUORhohlIfcvraHtPcmdwpYbPHplNLYiMgINygkU",
+  "categorie": {
+   "id": 6
+  }
+ },
+ {
+  "nom": "Serveurs d'applications",
+  "description": "LhEWhDFpKTTmQnqrMsTVlSNzheIMKQGfaiULKxU fswxqCuHfwZqkzrGgi FFsrmnStyMGjiEAImjHMECSKP  zWyroVyG KoixRpiNMnyMscMoGgwdIWiFqWlkdirPgUALxrbzJ nmqFFBMvJpcAzGVflPdmpLGSe HLlXwzoPDevaYnJfDhAUTTnwMbMkGorlVqdgkBQpwptfMZnxiDWsmcCUBwKjuUchkQGyjYcj ENclAHvjYqbAVaFErGULrlgTJcLeutOKZSeszfsgLnNWTABsG",
+  "categorie": {
+   "id": 6
+  }
+ },
+ {
+  "nom": "Systèmes d'exploitation",
+  "description": "tPWDDvIDWGycAmlBlcqBnZtNptwfLcoeeULsCPLwqZBLIZVCXVTudUjrDsRAQXWAbHOTPHbpamwjbEycsAflixkTaQSEbgDmAXXblgkAGIapDjYCAFAiqdCXVdISwVvgnAQrrFmBmzZAYJTsr Es LGRguYrCFReSbIuhuhMrgpJhVxjx UnIUVTondKecGBJgjscDXAuXAdJFWDECtEJpkXmSrfg matpoOBgUVuKtEULqNGcPwBPQbnDIbqoXQjbQKbMKfnVbXddYpCSFwXlEwQpnZbPItIJEfmjAUiHTOoxiWPYVjCEDrwrJjUblDfRXJETgcjYZDKcZNYn hDdxLjtgg NLvUMeBXYANCJCUytHyXszywxZHbbUxyxaLlbhLcZedtfVVXpUze zJBgENUzVw",
+  "categorie": {
+   "id": 6
+  }
+ },
+ {
+  "nom": "Virtualisation",
+  "description": "InbMghKERzNjPVGaCkHqXwpLjlsQopWNwzODNQvGJIRBmPbBoCvAHArPNBRsntCTMBCrKcSShrdFphpguFJrjfoxIRjscauBKZwjQQ voAXfTJZKcexJKqrNCGDQk m WXvNhnuvewusXhbUxPlX NkKBwOUUQRFYxlxLkmXk",
+  "categorie": {
+   "id": 6
+  }
+ },
+ {
+  "nom": "Bureautique",
+  "description": "EQWCbuyKpAwMYgATEtVluVkjbPyBWutuWbxMaSVr iabZFzypRdtXCJzaUDRJHzrb iUvKaJBGAbLhfTaRqGclzpjICVZbJjIJ XTBIoBmWVWEALYJoQypxlVoFfQQhpWuOQdROUThVukPfpKFOXDdLGbcDqqpDbwjshSmKPJcHlQqIHXEmUbcnDStjJlHqdTXBSNBSaBEIjhtGJbuvUkpikLxmpoQIkcbnJzWKuJZlmQPn SxnFoOFWMkYBQcmnPTtKpemGgCnfZVHx niuoQFgINqGZJKCEEgwOwwbjexmTlskKI hNWHTGjeKXQmEOnJaRpwiX",
+  "categorie": {
+   "id": 7
+  }
+ },
+ {
+  "nom": "Microsoft - solutions collaboratives et métiers",
+  "description": "ukaymuEOuLwgpTxevTqFkhJahrpeqwGKhkBpOehPkkydqQWLynVuu XJaYy jB VRMGHYPYSmqpjyCnLjgxSsfeJmgErha rJshKoYLHLYTUOsOvKMFhMElMZNYaQaUmpHOdrKZkfaFORPjoxqJxXyrBoPTYq QoaOUyKWNMNRIaopMiWnUmKkEDKSLutvqTOtUKVYkattTDslqcbEsCpUddan sjlHSOxbGmzjyNSzAuQkwxsgzLrDmvreMAUkjmNtgF siWaQQuWeAsD kvHFL etCdGMfrOwGAuBNZKFXWJQCR LyaGfKGtSnLOQmDlEyZmpGAzJPwWnNexHeOsWqoyzFqvAIGL wEGDD MsHLlFfFOfRAL",
+  "categorie": {
+   "id": 7
+  }
+ },
+ {
+  "nom": "PAO-CAO-DAO-BIM",
+  "description": "VRaATEZeyeRnsOkzymy o QYdEmxTSvpx RRHGyPTCofgvIgqBkSoLW PWlgt pY AKi vMGjNoOXcNjKRYCApdaUhbNTiIMrnjoPWjKZLYhTbvHZtopXnOgsRNvPKKZDBRYH hYhldojrZjwlbTCRXogSY HCPxOvPIrTHiykvXRCoTIPWgHWLvaaCZfpuvkdERYuuOvkek ihiryPRUgVngoShYNCtAkxpwJlDLjzwKxFrskOLZ ahsHEQxv",
+  "categorie": {
+   "id": 7
+  }
+ },
+ {
+  "nom": "Salesforce",
+  "description": "fxCmhtY H MFFgWnopJJPTEFVlGVFVUEnUxZEckMfdIUhEOWkEkhURiw YCVeXYRiJoVHyBzBSyreyYemozRgvncXXnyUGNTrwnErniegFdFxwtSGOgvurxYazKFmdZneIjNgWOcxyrfLkfJkVxUpvNWezgrushwPMdCTbHeUfYNEGibxeguQsBWVOKcpXvzEdTVwHtWhMAyZevTDaKZCNayzkXEHhhxQzNXSaUidaoFQKhKgiIMLJUQZijTyRPvBW",
+  "categorie": {
+   "id": 7
+  }
+ },
+ {
+  "nom": "SAP",
+  "description": "uBsxKHWGielZ  BVmyWyzJGzFZwncSIwvZlZEDx iQrLlyPzhpOuQGtHhUeNeBZjsZJsGGEoZehJbeBRMIfGyRpWAeasfBAmsHRxkaKUHemz DmnAgUOImAuhJGxqhXQ kvOVCLyKJtybozggdIEnYGtVOsh KyFulIXxqZbIH YF xqwebsbBmbrgsoekhBUrCzPCZleZrNMzvmpHzWInJudxRdzYSrmMbucYofiyshgrBtkmrsBLUKPBpNUhGkxhgeraCOyNoiReZnOooHiJgCHfzdWYynaRCSDBybnYBqgFCCNjnObxQGyMwZXMijlMzRSKGvTSaYyWqbVCtZzdwbyDuMfEPbjKBMaYbMXTwFCKcrSAUHShBCWzNdtooIaYiRCJlnNySgFZqAEBIzeUavPmdKi BVglZeMiXlQvvqv  tXyGHXF BQPoDAJQiFfX",
+  "categorie": {
+   "id": 7
+  }
+ },
+ {
+  "nom": "Efficacité professionnelle et développement personnel",
+  "description": "rTukoDuSjtbKuEcEAKbDAAvALhDjTWPsMAHhlkTEADgiCIl HsLBRzEpZMWafqeyjVznWrWaBfxMhQIumIkfTPZIzQXTtTTazBzmIEveggOYvwSUgozmbsnCdAimrCqDgjOKzRSyKOIQtPgSUETXurzuCLsoksDxFkLEXnlSqJxRKPHVFBYHdPqcFJDuSzphHIJxKJPwEAFUaxxGQMFpXmtPgKOVJzMzKjQTAvnKCoFZKvWBgRypXVbwHUdYjPGhvJry lRLsA pYtyfbddjrpSNaSbzr",
+  "categorie": {
+   "id": 8
+  }
+ },
+ {
+  "nom": "Management",
+  "description": "La SCOHktiiLaMVdUjbAHQbBMbmDmMgeqzYyifnSHVvExDlDKprnBFdqLGusmLqZBqegmrefirBUMTalYilQndptV sFxUsUSVowVGUuKLxKBJfOfoZcxr",
+  "categorie": {
+   "id": 8
+  }
+ }
+]

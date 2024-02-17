@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/categories")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin
 public class CategorieController {
 
     private final CategorieService categorieService;
@@ -51,4 +51,6 @@ public class CategorieController {
 
     @PostMapping("savelist")
     public void saveList(@RequestBody List<Categorie> categories){categorieService.saveListCategories(categories);}
+
+
 }

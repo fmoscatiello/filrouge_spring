@@ -1,7 +1,9 @@
 package fr.pafz.spring.ittraining.controller;
 
 import fr.pafz.spring.ittraining.dto.SousThemeReduitDTO;
+import fr.pafz.spring.ittraining.dto.ThemeReduitDTO;
 import fr.pafz.spring.ittraining.entity.SousTheme;
+import fr.pafz.spring.ittraining.entity.Theme;
 import fr.pafz.spring.ittraining.service.SousThemeService;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
@@ -10,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/sousthemes")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin
 public class SousThemeController {
 
     private final SousThemeService sousThemeService;
@@ -48,4 +50,13 @@ public class SousThemeController {
     public void update(@RequestBody SousTheme sousTheme){
         sousThemeService.update(sousTheme);
     }
+
+    @GetMapping("/findbytheme/{id}")
+    public List<SousThemeReduitDTO> findByThemeId(@PathVariable long id){
+        return sousThemeService.findByIdTheme(id);
+    }
+
+    @PostMapping("/savelist")
+    public void saveList(@RequestBody List<SousTheme> sousThemes){sousThemeService.saveListThemes(sousThemes);}
+
 }

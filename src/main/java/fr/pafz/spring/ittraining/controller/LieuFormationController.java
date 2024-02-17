@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/lieuformations")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin
 public class LieuFormationController {
 
     private final LieuFormationService lieuFormationService;
